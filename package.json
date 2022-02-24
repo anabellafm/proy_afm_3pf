@@ -1,0 +1,25 @@
+{
+  "name": "proy_sm_afm_3erpf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos_proy.scss css/estilos_proy.css",
+    "watch-sass": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anabellafm/proy_sm_cont_real.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anabellafm/proy_sm_cont_real/issues"
+  },
+  "homepage": "https://github.com/anabellafm/proy_sm_cont_real#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
